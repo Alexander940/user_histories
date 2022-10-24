@@ -8,6 +8,9 @@
 }
 
 .info_and_button_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 70%;
     width: 25%;
     margin-right: 50px;
@@ -42,16 +45,33 @@
     height: 60%;
     width: 90%;
     margin-top: 10px;
-    margin-left: 14px;
+    margin-left: 20px;
+}
+
+.info_monitoria_section p{
+    color: #000;
+}
+
+.info_monitoria_section p b{
+    color: #fff;
 }
 
 .button_salir_section{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
     margin-top: 10px;
-    width: 100%;
+    width: 95%;
     height: 10%;
-    align-items: stretch;
+    
 }
+
+.button_salir:hover{
+    transform: scale(1.1)
+}
+
+
 
 .button_salir{
     background-color: transparent;
@@ -65,7 +85,7 @@
     display: flex;
     flex-direction: column;
     height: 70%;
-    width: 30%;
+    width: 30%; 
     border: 2px solid black;
     margin-left: 50px;
     margin-top: 50px;
